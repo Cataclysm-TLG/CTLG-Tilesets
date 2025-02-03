@@ -1,3 +1,0 @@
-chamons
-https://github.com/crawl/tiles/blob/master/releases/Nov-2015/item/weapon/rapier3.png
-https://github.com/crawl/tiles/blob/master/releases/Nov-2015/item/weapon/rapier2.png
