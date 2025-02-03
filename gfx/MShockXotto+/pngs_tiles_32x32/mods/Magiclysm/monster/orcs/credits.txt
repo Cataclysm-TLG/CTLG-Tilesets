@@ -1,3 +1,0 @@
-Edited from https://github.com/crawl/tiles/blob/master/releases/Nov-2015/mon/orc_warrior.png
-
-mon_zorc by Boru M
