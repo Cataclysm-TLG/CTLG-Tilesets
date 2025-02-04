@@ -337,20 +337,5 @@
     "id": [ "natural_depression$details" ],
     "fg": "unknown_terrain_details",
     "bg": "crater"
-  },
-  {
-    "id": [ "unusual_structure$vague" ],
-    "fg": "unknown_terrain_vague",
-    "bg": "wizardtower2_ground"
-  },
-  {
-    "id": [ "unusual_structure$outlines" ],
-    "fg": "unknown_terrain_outlines",
-    "bg": "wizardtower2_ground"
-  },
-  {
-    "id": [ "unusual_structure$details" ],
-    "fg": "unknown_terrain_details",
-    "bg": "wizardtower2_ground"
   }
 ]
