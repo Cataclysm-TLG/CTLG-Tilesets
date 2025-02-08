@@ -3,6 +3,7 @@
     "id": "t_grass_long",
     "fg": "t_grass_long_unconnected",
     "multitile": true,
+<<<<<<< HEAD
     "additional_tiles": [
       {
         "id": "center",
@@ -16,6 +17,20 @@
       },
       {
         "id": "t_connection",
+=======
+    "fg": [ "t_grass_long_unconnected" ],
+    "bg": [ "t_dirt" ],
+    "additional_tiles": [
+      { "id": "center", "bg": [ "t_dirt" ], "fg": [ "t_grass_long_center" ] },
+      {
+        "id": "corner",
+        "bg": [ "t_dirt" ],
+        "fg": [ "t_grass_long_corner_nw", "t_grass_long_corner_sw", "t_grass_long_corner_se", "t_grass_long_corner_ne" ]
+      },
+      {
+        "id": "t_connection",
+        "bg": [ "t_dirt" ],
+>>>>>>> parent of f18c5b0f9 (partial seasonal variants implementation)
         "fg": [
           "t_grass_long_t_connection_n",
           "t_grass_long_t_connection_w",
@@ -29,6 +44,7 @@
         "fg": [ "t_grass_long_edge_ns", "t_grass_long_edge_ew" ],
         "bg": [ { "weight": 1, "sprite": "t_grass" }, { "weight": 1, "sprite": "t_grass_1" }, { "weight": 1, "sprite": "t_grass_2" } ]
       },
+<<<<<<< HEAD
       {
         "id": "end_piece",
         "fg": [ "t_grass_long_end_piece_n", "t_grass_long_end_piece_w", "t_grass_long_end_piece_s", "t_grass_long_end_piece_e" ],
@@ -39,12 +55,22 @@
         "fg": [ "t_grass_long_unconnected", "t_grass_long_unconnected" ],
         "bg": [ { "weight": 1, "sprite": "t_grass" }, { "weight": 1, "sprite": "t_grass_1" }, { "weight": 1, "sprite": "t_grass_2" } ]
       }
+=======
+      { "id": "edge", "bg": [ "t_dirt" ], "fg": [ "t_grass_long_edge_ns", "t_grass_long_edge_ew" ] },
+      {
+        "id": "end_piece",
+        "bg": [ "t_dirt" ],
+        "fg": [ "t_grass_long_end_piece_n", "t_grass_long_end_piece_w", "t_grass_long_end_piece_s", "t_grass_long_end_piece_e" ]
+      },
+      { "bg": [ "t_dirt" ], "id": "unconnected", "fg": [ "t_grass_long_unconnected" ] }
+>>>>>>> parent of f18c5b0f9 (partial seasonal variants implementation)
     ]
   },
   {
     "id": "t_grass_long_season_autumn",
     "fg": "t_grass_long_autumn_unconnected",
     "multitile": true,
+<<<<<<< HEAD
     "additional_tiles": [
       {
         "id": "center",
@@ -57,6 +83,15 @@
       },
       {
         "id": "corner",
+=======
+    "fg": [ "t_grass_long_autumn_unconnected" ],
+    "bg": [ "t_dirt_autumn" ],
+    "additional_tiles": [
+      { "id": "center", "bg": [ "t_dirt_autumn" ], "fg": [ "t_grass_long_autumn_center" ] },
+      {
+        "id": "corner",
+        "bg": [ "t_dirt_autumn" ],
+>>>>>>> parent of f18c5b0f9 (partial seasonal variants implementation)
         "fg": [
           "t_grass_long_autumn_corner_nw",
           "t_grass_long_autumn_corner_sw",
@@ -71,6 +106,10 @@
       },
       {
         "id": "t_connection",
+<<<<<<< HEAD
+=======
+        "bg": [ "t_dirt_autumn" ],
+>>>>>>> parent of f18c5b0f9 (partial seasonal variants implementation)
         "fg": [
           "t_grass_long_autumn_t_connection_n",
           "t_grass_long_autumn_t_connection_w",
@@ -85,6 +124,7 @@
       },
       {
         "id": "edge",
+<<<<<<< HEAD
         "fg": [ "t_grass_long_autumn_edge_ns", "t_grass_long_autumn_edge_ew" ],
         "bg": [
           { "weight": 1, "sprite": "t_grass_autumn" },
@@ -94,6 +134,14 @@
       },
       {
         "id": "end_piece",
+=======
+        "bg": [ "t_dirt_autumn" ],
+        "fg": [ "t_grass_long_autumn_edge_ns", "t_grass_long_autumn_edge_ew" ]
+      },
+      {
+        "id": "end_piece",
+        "bg": [ "t_dirt_autumn" ],
+>>>>>>> parent of f18c5b0f9 (partial seasonal variants implementation)
         "fg": [
           "t_grass_long_autumn_end_piece_n",
           "t_grass_long_autumn_end_piece_w",
@@ -106,6 +154,7 @@
           { "weight": 1, "sprite": "t_grass_autumn_2" }
         ]
       },
+<<<<<<< HEAD
       {
         "id": "unconnected",
         "fg": [ "t_grass_long_autumn_unconnected", "t_grass_long_autumn_unconnected" ],
@@ -115,12 +164,16 @@
           { "weight": 1, "sprite": "t_grass_autumn_2" }
         ]
       }
+=======
+      { "bg": [ "t_dirt_autumn" ], "id": "unconnected", "fg": [ "t_grass_long_autumn_unconnected" ] }
+>>>>>>> parent of f18c5b0f9 (partial seasonal variants implementation)
     ]
   },
   {
     "id": "t_grass_long_season_summer",
     "fg": "t_grass_long_summer_unconnected",
     "multitile": true,
+<<<<<<< HEAD
     "additional_tiles": [
       {
         "id": "center",
@@ -133,6 +186,15 @@
       },
       {
         "id": "corner",
+=======
+    "fg": [ "t_grass_long_summer_unconnected" ],
+    "bg": [ "t_dirt_summer" ],
+    "additional_tiles": [
+      { "id": "center", "bg": [ "t_dirt_summer" ], "fg": [ "t_grass_long_summer_center" ] },
+      {
+        "id": "corner",
+        "bg": [ "t_dirt_summer" ],
+>>>>>>> parent of f18c5b0f9 (partial seasonal variants implementation)
         "fg": [
           "t_grass_long_summer_corner_nw",
           "t_grass_long_summer_corner_sw",
@@ -147,6 +209,10 @@
       },
       {
         "id": "t_connection",
+<<<<<<< HEAD
+=======
+        "bg": [ "t_dirt_summer" ],
+>>>>>>> parent of f18c5b0f9 (partial seasonal variants implementation)
         "fg": [
           "t_grass_long_summer_t_connection_n",
           "t_grass_long_summer_t_connection_w",
@@ -161,6 +227,7 @@
       },
       {
         "id": "edge",
+<<<<<<< HEAD
         "fg": [ "t_grass_long_summer_edge_ns", "t_grass_long_summer_edge_ew" ],
         "bg": [
           { "weight": 1, "sprite": "t_grass_summer" },
@@ -170,6 +237,14 @@
       },
       {
         "id": "end_piece",
+=======
+        "bg": [ "t_dirt_summer" ],
+        "fg": [ "t_grass_long_summer_edge_ns", "t_grass_long_summer_edge_ew" ]
+      },
+      {
+        "id": "end_piece",
+        "bg": [ "t_dirt_summer" ],
+>>>>>>> parent of f18c5b0f9 (partial seasonal variants implementation)
         "fg": [
           "t_grass_long_summer_end_piece_n",
           "t_grass_long_summer_end_piece_w",
@@ -182,6 +257,7 @@
           { "weight": 1, "sprite": "t_grass_summer_2" }
         ]
       },
+<<<<<<< HEAD
       {
         "id": "unconnected",
         "fg": [ "t_grass_long_summer_unconnected", "t_grass_long_summer_unconnected" ],
@@ -191,6 +267,9 @@
           { "weight": 1, "sprite": "t_grass_summer_2" }
         ]
       }
+=======
+      { "bg": [ "t_dirt_summer" ], "id": "unconnected", "fg": [ "t_grass_long_summer_unconnected" ] }
+>>>>>>> parent of f18c5b0f9 (partial seasonal variants implementation)
     ]
   },
   {
