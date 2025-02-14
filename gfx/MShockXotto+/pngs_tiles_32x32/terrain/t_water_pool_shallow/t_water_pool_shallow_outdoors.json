@@ -1,5 +1,5 @@
 {
-  "id": "t_water_pool_shallow",
+  "id": "t_water_pool_shallow_outdoors",
   "fg": "t_water_pool_shallow_unconnected",
   "multitile": true,
   "additional_tiles": [
