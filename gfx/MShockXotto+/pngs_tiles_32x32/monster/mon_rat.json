@@ -1,6 +1,6 @@
 {
   "id": "mon_rat",   "fg": [
-    "mon_rat",
+    "mon_brown_rat",
     "mon_black_rat"
   ], "bg": ["shadow_32x32_normal"], "rotates": false
 }
