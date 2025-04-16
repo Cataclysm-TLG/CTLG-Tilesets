@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-{"id": "mon_rat",   "fg": [
-    "mon_rat",
+{
+  "id": "mon_rat",   "fg": [
+    "mon_brown_rat",
     "mon_black_rat"
-  ], "bg": ["shadow_32x32_normal"], "rotates": false}
-=======
-{"id": "mon_rat", "fg": ["mon_rat"], "bg": ["shadow_32x32_normal"], "rotates": false}
->>>>>>> master
+  ], "bg": ["shadow_32x32_normal"], "rotates": false
+}
