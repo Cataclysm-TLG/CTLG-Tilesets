@@ -15,26 +15,26 @@ setlocal EnableExtensions
 set tileset_fork=".."
 
 ::
-:: 2. Set correct tileset folder name (e.g. UltimateCataclysm)
+:: 2. Set correct tileset folder name (e.g. MShockXotto)
 
-set def_tileset=""
+set def_tileset="MShockXotto+"
 
 ::
 :: 3. Set path to compose.py file
 
 set script_dir="."
 :: For use of compose.py script from the game directory:
-:: set script_dir="CDDA_PATH\tools\gfx_tools"
+:: set script_dir="CTLG_TILESET\tools"
 
 ::
-:: 4. Set path to CDDA game folder
+:: 4. Set path to CTLG game folder (eg. C:\Users\user\Desktop\ctlg-windows-tiles-sounds-x64-YYYY-MM-DD-vvvv)
 
 set the_game_dir=""
 
 ::
 :: 5. OPTIONAL, Set path to the folder where to put the composed tileset (for future examination)
 
-set composed_dir="compiled_tilesets\"
+set composed_dir="compiled_tilesets" 
 
 ::
 :: all set, you're done! just doubleclick on this file.
@@ -78,7 +78,7 @@ if /i [!curarg1!] EQU [/] (
         echo   tileset    Should be the same as foldername in tileset repository.
         echo.
         echo   When used without any key will use variables set in the top part of the %0 script.
-        echo   Alternatively, use an environmental variable: set CDDA_PATH="C:\Program Files\Cataclysm-DDA"
+        echo   Alternatively, use an environmental variable: set CTLG_PATH="C:\Program Files\Cataclysm-CTLG"
         exit /b 255
     )
     shift /1
@@ -95,11 +95,11 @@ if /i [!verbose!] EQU [YES] (echo    WARNING^^^! Tileset cant be composed with P
 if /i [!verbose!] EQU [YES] (echo.)
 
 :overwrite_with_env_var
-if /i [!CDDA_PATH!] NEQ [] (
-    SET the_game_dir=%CDDA_PATH:"=%
+if /i [!CTLG_PATH!] NEQ [] (
+    SET the_game_dir=%CTLG_PATH:"=%
 )
-if /i [!CDDA_TILESET!] NEQ [] (
-    SET def_tileset=%CDDA_TILESET:"=%
+if /i [!CTLG_TILESET!] NEQ [] (
+    SET def_tileset=%CTLG_TILESET:"=%
 )
 
 :interactive_game_path
@@ -108,7 +108,7 @@ if /i [!the_game_dir!] EQU [] (
     echo To set the game directory permanently, run set_game_path.cmd
     echo Setting the game directory temporarily...
     CALL set_game_path.cmd /t /s || echo Error setting game directory && goto stop
-    SET the_game_dir=!CDDA_PATH:"=!
+    SET the_game_dir=!CTLG_PATH:"=!
 )
 
 :interactive_tileset
@@ -119,7 +119,7 @@ if /i [!tileset_arg!] EQU [] (
         echo Alternatively, run this script with the tileset name as argument
         echo Setting the tileset temporarily...
         CALL set_tileset.cmd /t /c /s || echo Error setting tileset && goto stop
-        SET tileset_arg=!CDDA_TILESET:"=!
+        SET tileset_arg=!CTLG_TILESET:"=!
     )
 )
 
@@ -136,9 +136,9 @@ if not exist "%tileset_fork%\gfx\" (
 ) else (
     if not exist "%tileset_fork%\gfx\%tileset_name%\tile_info.json" (echo ERROR: Check tileset name. Must be one of these:&& dir "%tileset_fork%\gfx\" /AD /B && goto stop)
 )
-if /i [!verbose!] EQU [YES] (echo    - CDDA-Tileset fork with source tiles found.)
+if /i [!verbose!] EQU [YES] (echo    - CTLG-Tileset fork with source tiles found.)
 
-set script_path=%script_dir:CDDA_PATH=!the_game_dir!%\compose.py
+set script_path=%script_dir:CTLG_PATH=!the_game_dir!%\compose.py
 
 if not exist "%script_path%" (echo ERROR: Cannot find compose.py file! && goto stop)
 if /i [!verbose!] EQU [YES] (echo    - Python 'compose.py' script found under !script_path! folder.)
@@ -163,7 +163,7 @@ if /i [!verbose!] EQU [YES] (
     )
 )
 
-if not exist "%the_game_dir%\cataclysm-tiles.exe" (echo ERROR: Cannot find the game! && goto stop)
+if not exist "%the_game_dir%\cataclysm-tlg-tiles.exe" (echo ERROR: Cannot find the game! && goto stop)
 if /i [!verbose!] EQU [YES] (echo    - Cataclysm game executable found.)
 if /i [!verbose!] EQU [YES] (echo.)
 
@@ -243,7 +243,13 @@ if /i [!verbose!] EQU [YES] (echo.)
 
 echo 3. Lets compose %tileset_name%. Be patient it takes some time.
 pushd "!path_to_compose!" || goto :deleted
-rd /q /s . 2> NUL
+for %%f in ("!path_to_compose!\*") do (
+    if /i "%%~nxf" NEQ "fallback.png" (
+        if exist "%%f" (
+            if exist "%%f\" (rd /q /s "%%f") else (del /q "%%f")
+        )
+    )
+)
 popd
 :deleted
 %APP% "%script_path%" --use-all "%tileset_fork%\gfx\%tileset_name%" "!path_to_compose!"
