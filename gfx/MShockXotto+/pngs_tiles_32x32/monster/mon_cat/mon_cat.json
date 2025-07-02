@@ -13,6 +13,6 @@
     { "weight": 1, "sprite": "mon_cat_tuxedo" },
     { "weight": 1, "sprite": "mon_cat_white" }
   ],
-  "bg": "shadow_20x20_normal",
+  "bg": "shadow_32x32_small",
   "rotates": false
 }
