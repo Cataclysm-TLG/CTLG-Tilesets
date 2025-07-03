@@ -1,9 +1,9 @@
 @echo off
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-:: This script sets the environmental variable CDDA_PATH to either:
+:: This script sets the environmental variable CTLG_PATH to either:
 :: - the first positional argument or
 ::   (also supports drag & drop ofthe game folder ontothe script file)
-:: - the current working directory it it is a valid CDDA game directory or
+:: - the current working directory it it is a valid CTLG game directory or
 :: - a path entered by the user upon prompt
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -34,8 +34,8 @@ if /i [%path_arg%] NEQ [] (
 )
 
 if exist "%CD%\gfx" (
-    if exist "%CD%\cataclysm-tiles.exe" (
-        echo Detected CDDA game directory at %CD%
+    if exist "%CD%\cataclysm-tlg-tiles.exe" (
+        echo Detected CTLG game directory at %CD%
         set path_arg=%CD%&& goto :skip_interactive
     )
 )
@@ -55,19 +55,19 @@ if not exist "%path_arg%" (
 )
 
 if not exist "%path_arg%\gfx" (
-    echo ERROR: Directory "%path_arg%" is not a valid CDDA game directory! && goto stop
+    echo ERROR: Directory "%path_arg%" is not a valid CTLG game directory! && goto stop
 )
-if not exist "%path_arg%\cataclysm-tiles.exe" (
-    echo ERROR: Directory "%path_arg%" is not a valid CDDA game directory! && goto stop
+if not exist "%path_arg%\cataclysm-tlg-tiles.exe" (
+    echo ERROR: Directory "%path_arg%" is not a valid CTLG game directory! && goto stop
 )
 
 if /i [%is_temp%] EQU [YES] (
-    echo Setting cdda path to "%path_arg%", temporarily
-    SET CDDA_PATH=%path_arg%
+    echo Setting ctlg path to "%path_arg%", temporarily
+    SET CTLG_PATH=%path_arg%
 ) else (
-    echo Setting cdda path "%path_arg%", permanently
+    echo Setting ctlg path "%path_arg%", permanently
     echo Reboot required
-    SETX CDDA_PATH %path_arg%
+    SETX CTLG_PATH %path_arg%
 )
 
 if /i [%silent%] NEQ [YES] (
