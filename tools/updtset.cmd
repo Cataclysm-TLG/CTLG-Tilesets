@@ -17,7 +17,7 @@ set tileset_fork=".."
 ::
 :: 2. Set correct tileset folder name (e.g. MShockXotto)
 
-set def_tileset="MShockXotto+"
+set def_tileset="GiantDays"
 
 ::
 :: 3. Set path to compose.py file

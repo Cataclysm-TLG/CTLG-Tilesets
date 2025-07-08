@@ -1,8 +1,8 @@
 {
   "id": [
     "acorns",
-    "veggy_cooked",
-    "veggy_wild_cooked",
+    "vegetable_cooked",
+    "vegetable_wild_cooked",
     "choco_coffee_beans",
     "maltballs",
     "datura_seed",
@@ -16,7 +16,7 @@
     "seed_sunflower",
     "macaroni_raw",
     "seed_onion",
-    "mre_veggy",
+    "mre_vegetarian_taco",
     "hickory_nut",
     "pistachio_roasted",
     "pistachio_unshelled",
