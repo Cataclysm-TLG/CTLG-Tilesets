@@ -34,12 +34,12 @@
       "mre_chilibeans_box",
       "mre_chilimac_box",
       "mre_macaronimarinara_box",
-      "mre_veggy_box",
+      "mre_vegetarian_taco_box",
       "mre_mushroomfettuccine_box",
       "mre_ratatouille_box",
       "mre_sfettuccine_box"
     ],
-    "fg": [ "mre_veggy" ],
+    "fg": [ "mre_vegetarian_taco" ],
     "rotates": false,
     "bg": [  ]
   },

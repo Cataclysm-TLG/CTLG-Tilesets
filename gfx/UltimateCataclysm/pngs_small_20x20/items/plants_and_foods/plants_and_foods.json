@@ -4,7 +4,7 @@
     "fg": "flour"
   },
   {
-    "id": [ "pizza_cheese", "pizza_veggy", "pizza_meat" ],
+    "id": [ "pizza_cheese", "pizza_vegetable", "pizza_meat" ],
     "fg": "pizza"
   },
   {
@@ -89,7 +89,7 @@
       "seed_rhubarb",
       "seed_wild_herbs",
       "seed_raw_dandelion",
-      "seed_veggy_wild",
+      "seed_vegetable_wild",
       "seed_chili_pepper",
       "seed_dogbane",
       "seed_mugwort",
