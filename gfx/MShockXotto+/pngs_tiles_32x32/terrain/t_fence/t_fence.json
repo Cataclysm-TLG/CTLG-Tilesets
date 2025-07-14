@@ -41,9 +41,9 @@
       "id": "end_piece",
       "bg": "t_dirt",
       "fg": [
+        "t_fence_ns",
         "t_fence",
-        "t_fence",
-        "t_fence",
+        "t_fence_ns",
         "t_fence"
       ]
     },
