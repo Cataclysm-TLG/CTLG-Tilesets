@@ -41,10 +41,10 @@
       "id": "end_piece",
       "bg": "",
       "fg": [
-        "f_hedge_short",
-        "f_hedge_short",
-        "f_hedge_short",
-        "f_hedge_short"
+        "f_hedge_short_n",
+        "f_hedge_short_w",
+        "f_hedge_short_s",
+        "f_hedge_short_e"
       ]
     },
     {

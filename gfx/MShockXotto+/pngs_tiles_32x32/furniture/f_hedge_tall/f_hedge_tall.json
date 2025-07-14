@@ -41,10 +41,10 @@
       "id": "end_piece",
       "bg": "",
       "fg": [
-        "f_hedge_tall",
-        "f_hedge_tall",
-        "f_hedge_tall",
-        "f_hedge_tall"
+        "f_hedge_tall_n",
+        "f_hedge_tall_w",
+        "f_hedge_tall_s",
+        "f_hedge_tall_e"
       ]
     },
     {
