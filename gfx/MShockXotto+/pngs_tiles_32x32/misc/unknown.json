@@ -1,7 +1,7 @@
 [
   {
     "id": "unknown",
-    "fg": [ "unknown" ],
+    "fg": [ "infrared_creature_medium" ],
     "rotates": false,
     "bg": [  ]
   }

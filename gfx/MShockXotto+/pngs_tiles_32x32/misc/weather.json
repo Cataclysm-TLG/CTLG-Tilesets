@@ -4,5 +4,17 @@
     "fg": [ "984_weather_snowflake_0" ],
     "rotates": false,
     "bg": [  ]
+  },
+  {
+    "id": "weather_fog",
+    "fg": [ "weather_fog" ],
+    "rotates": false,
+    "bg": [  ]
+  },
+  {
+    "id": "weather_mist",
+    "fg": [ "weather_mist" ],
+    "rotates": false,
+    "bg": [  ]
   }
 ]
