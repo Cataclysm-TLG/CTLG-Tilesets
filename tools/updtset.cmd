@@ -15,7 +15,7 @@ setlocal EnableExtensions
 set tileset_fork=".."
 
 ::
-:: 2. Set correct tileset folder name (e.g. MShockXotto)
+:: 2. Set correct tileset folder name (e.g. MShockXotto+)
 
 set def_tileset="MShockXotto+"
 
