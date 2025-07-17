@@ -21,5 +21,13 @@
 {
   "id": "weather_acid_drop",
   "fg": "weather_acid_drop"
+},
+{
+  "id": "weather_mist",
+  "fg": "weather_mist"
+},
+{
+  "id": "weather_fog",
+  "fg": "weather_fog"
 }
 ]

@@ -5,8 +5,8 @@ a tile_config.json and tilesheet .png file(s) ready for use in CDDA.
 
 Examples:
 
-    %(prog)s ../CDDA-Tilesets/gfx/Retrodays/
-    %(prog)s --no-use-all ../CDDA-Tilesets/gfx/UltimateCataclysm/
+    %(prog)s ../CTLG-Tilesets/gfx/Retrodays/
+    %(prog)s --no-use-all ../CTLG-Tilesets/gfx/UltimateCataclysm/
 
 By default, output is written back to the source directory. Pass an output
 directory as the last argument to place output files there instead. The
@@ -941,7 +941,7 @@ def main() -> Union[int, ComposingException]:
         help='Quantize all tilesheets to 8bpp colormaps.')
     arg_parser.add_argument(
         '--format-json', dest='format_json', action='store_true',
-        help='Use either CDDA formatter or Python json.tool '
+        help='Use either CTLG formatter or Python json.tool '
         'to format the tile_config.json')
     arg_parser.add_argument(
         '--only-json', dest='only_json', action='store_true',
