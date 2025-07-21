@@ -1,0 +1,17 @@
+[
+  {
+    "id": "t_dirt_rocky",
+    "fg": [
+        { "weight": 100, "sprite": "t_dirt_rocky1" },
+        { "weight": 100, "sprite": "t_dirt_rocky2" },
+        { "weight": 100, "sprite": "t_dirt_rocky3" },
+        { "weight": 100, "sprite": "t_dirt_rocky4" }
+    ],
+    "bg": [
+        { "weight": 100, "sprite": "t_dirt" },
+        { "weight": 100, "sprite": "t_dirt2" },
+        { "weight": 100, "sprite": "t_dirt3" },
+        { "weight": 100, "sprite": "t_dirt4" }
+    ]
+  }
+]
