@@ -1,5 +1,11 @@
 [
   {
+    "id": [ "overmap_horde_o" ],
+    "fg": [ "empty_32x32" ],
+    "rotates": false,
+    "bg": [  ]
+  },
+  {
     "id": [ "overmap_horde_1" ],
     "fg": [ "overmap_horde_1", "overmap_horde_2" ],
     "rotates": false,
