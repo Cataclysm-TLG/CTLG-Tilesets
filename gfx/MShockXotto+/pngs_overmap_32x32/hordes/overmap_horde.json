@@ -1,6 +1,6 @@
 [
   {
-    "id": [ "overmap_horde_o" ],
+    "id": [ "overmap_horde_0" ],
     "fg": [ "empty_32x32" ],
     "rotates": false,
     "bg": [  ]
@@ -55,6 +55,12 @@
   },
   {
     "id": [ "overmap_horde_9" ],
+    "fg": [ "overmap_horde_9", "overmap_horde_10", "overmap_horde_8" ],
+    "rotates": false,
+    "bg": [  ]
+  },
+  {
+    "id": [ "overmap_horde_10" ],
     "fg": [ "overmap_horde_9", "overmap_horde_10" ],
     "rotates": false,
     "bg": [  ]
