@@ -1,0 +1,14 @@
+[
+  {
+    "id": "weather_fog",
+    "fg": [ "16_weather_fog_0" ],
+    "rotates": false,
+    "bg": [  ]
+  },
+  {
+    "id": "weather_mist",
+    "fg": [ "17_weather_mist_0" ],
+    "rotates": false,
+    "bg": [  ]
+  }
+]
