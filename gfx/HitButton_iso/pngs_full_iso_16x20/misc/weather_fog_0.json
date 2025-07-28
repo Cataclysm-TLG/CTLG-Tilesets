@@ -1,0 +1,10 @@
+[
+  {
+    "id": "weather_fog",
+    "fg": [ "66_weather_fog_0" ]
+  },
+  {
+    "id": "weather_mist",
+    "fg": [ "67_weather_mist_0" ]
+  }
+]
