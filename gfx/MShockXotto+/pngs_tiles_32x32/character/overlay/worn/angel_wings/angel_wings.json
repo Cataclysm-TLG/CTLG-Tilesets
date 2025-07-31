@@ -1,6 +1,6 @@
 {
   "id": "overlay_worn_angel_wings",
-  "fg": [ "overlay_mutation_WINGS_BIRD"
+  "fg": [ "overlay_mutation_WINGS_BIRD_var_white"
   ],
   "bg": [],
   "rotates": false
