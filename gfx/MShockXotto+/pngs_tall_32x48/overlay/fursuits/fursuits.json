@@ -4,11 +4,11 @@
     "fg": [ "overlay_worn_dragonsuit" ]
   },
   {
-    "id": [ "overlay_worn_fursuit_var_felinesuit" ],
+    "id": [ "overlay_worn_fursuit_var_cat_fursuit" ],
     "fg": [ "overlay_worn_felinesuit" ]
   },
   {
-    "id": [ "overlay_worn_fursuit_var_sharksuit" ],
+    "id": [ "overlay_worn_mascot_suit_var_shark_costume" ],
     "fg": [ "overlay_worn_sharksuit" ]
   }
 ]
