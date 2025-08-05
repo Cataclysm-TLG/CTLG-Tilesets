@@ -8,5 +8,15 @@
   {
     "id": "river_center",
     "fg": "river_center"
+  },
+  {
+    "id": "stream",
+    "fg": [ "river_north", "river_east", "river_south", "river_west" ],
+    "bg": "field",
+    "rotates": true
+  },
+  {
+    "id": "stream_center",
+    "fg": "river_center"
   }
 ]
