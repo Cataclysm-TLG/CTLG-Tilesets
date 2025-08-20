@@ -1,0 +1,7 @@
+  {
+    "id": "corpse_mon_zombie_fungal",
+    "fg": [
+    { "weight": 1, "sprite": "corpse_mon_zombie_fungal" } ],
+    "rotates": false,
+    "bg": [  ]
+  }
