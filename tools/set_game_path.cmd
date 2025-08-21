@@ -57,8 +57,8 @@ if not exist "%path_arg%" (
 if not exist "%path_arg%\gfx" (
     echo ERROR: Directory "%path_arg%" is not a valid CTLG game directory! && goto stop
 )
-if not exist "%path_arg%\cataclysm-tlg-tiles.exe" (
-    echo ERROR: Directory "%path_arg%" is not a valid CTLG game directory! && goto stop
+if not exist "%path_arg%\cataclysm-tlg-tiles.exe" if not exist "%path_arg%\cataclysm-tiles.exe" (
+    echo ERROR: Directory "%path_arg%" is not a valid Cataclysm game directory! && goto stop
 )
 
 if /i [%is_temp%] EQU [YES] (

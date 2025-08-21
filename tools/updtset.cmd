@@ -163,8 +163,16 @@ if /i [!verbose!] EQU [YES] (
     )
 )
 
-if not exist "%the_game_dir%\cataclysm-tlg-tiles.exe" (echo ERROR: Cannot find the game! && goto stop)
-if /i [!verbose!] EQU [YES] (echo    - Cataclysm game executable found.)
+
+if not exist "%the_game_dir%\cataclysm-tlg-tiles.exe" if not exist "%the_game_dir%\cataclysm-tiles.exe" (
+    echo ERROR: Cannot find the game! && goto stop
+)
+if exist "%the_game_dir%\cataclysm-tlg-tiles.exe" (
+    if /i [!verbose!] EQU [YES] (echo    - Cataclysm game executable 'cataclysm-tlg-tiles.exe' found.)
+)
+if exist "%the_game_dir%\cataclysm-tiles.exe" (
+    if /i [!verbose!] EQU [YES] (echo    - Cataclysm game executable 'cataclysm-tiles.exe' found.)
+)
 if /i [!verbose!] EQU [YES] (echo.)
 
 
