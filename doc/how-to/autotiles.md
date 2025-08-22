@@ -5,7 +5,7 @@ depending on their relationship to other sprites in the group. Water is a classi
 water as an autotile allows it to display as a single body with edges, instead of either individual
 little puddles, or a large blue expanse with no shoreline.
 
-![Water autotile](image/t_water_sh_autotile.png)
+![Water autotile](../../scratch/UltimateCataclysm/terrain/t_water_sh_autotile.png)
 
 To simplify drawing these tiles, we use templates with 4x4 and 8x6 grids of all the tile boundary types
 in a predictable order. Transparency allows overlapping the same tiles on different backgrounds, so
@@ -14,27 +14,27 @@ and the transparent edges allow it to overlap dirt, grass, rock, and so on.
 
 The 4x4 template supports only current game code:
 
-![Multitile 4x4 Template](image/multitile_grid_4x4.png)
+![Multitile 4x4 Template](../../templates/multitile_grid_4x4.png)
 
 Black space indicates background, and white is the shape of the furniture or terrain.
 
 And the 8x6 is an attempt at future-proofing the project that was created before 4x4. Currently, only a few of these tiles are supported in CDDA, although some day it would be nice to have all of them available:
 
-![Autotile Template](image/autotile_template_grid.png)
+![Autotile Template](../../templates/autotile_template_grid.png)
 
 The sixteen tiles in the top-left 4x4 block contain the basic boundary shapes that are just the 4x4 template in a different order.
 
 Both terrain and furniture tiles may use this template. Terrain like grass or fences:
 
-![Grass 4x4 terrain](image/t_grass_multitile.png)
+![Grass 4x4 terrain](../../scratch/UltimateCataclysm/terrain/t_grass/t_grass_multitile.png)
 
-![Tall grass terrain](image/t_grass_tall_autotile.png)
-![Fence terrain](image/t_fence_autotile.png)
+![Tall grass terrain](../../scratch/UltimateCataclysm/terrain/t_grass_tall_autotile.png)
+![Fence terrain](../../scratch/UltimateCataclysm/terrain/t_fence_autotile.png)
 
 and furniture like bathtubs or benches:
 
-![Bathtub furniture](image/f_bathtub_autotile.png)
-![Table furniture](image/f_bench_autotile.png)
+![Bathtub furniture](../../scratch/UltimateCataclysm/furniture/f_bathtub_autotile.png)
+![Table furniture](../../scratch/UltimateCataclysm/furniture/f_bench_autotile.png)
 
 With the current tile support there are two ways you might use an
 autotile, demonstrated by the bench and table autotiles. What we're missing is the ability to draw
@@ -50,12 +50,12 @@ These break down into a few parts as recognized by the game.
 - **end_piece**: These tiles are connected only on one side.
 - **t_connection**: These are the 3-way intersection tiles.
 
-![Autotile part labels](image/f_bench_autotile_labels.png)
+![Autotile part labels](../../templates/f_bench_autotile_labels.png)
 
 
 #### Things like benches
 
-![Autotile: bench](image/f_bench_autotile.png)
+![Autotile: bench](../../scratch/UltimateCataclysm/furniture/f_bench_autotile.png)
 
 The bench autotile is an example of an autotile that we don't really expect to be displayed double-thick most of the time. Generally you're going to draw a bench like this:
 ```
@@ -75,7 +75,7 @@ For this reason, the **t_connection** and **center** art for the bench are drawn
 
 #### Things like tables
 
-![Autotile: table](image/f_table_autotile.png)
+![Autotile: table](../../scratch/UltimateCataclysm/furniture/f_table_autotile.png)
 
 The table autotile is an example of a tile you would often expect to be drawn double-thick,
 connecting to itself. While you might also draw it one tile wide, two or more tiles of contiguous
@@ -149,9 +149,9 @@ a JSON file with connection data, for example:
 #### Slicing isometric autotiles
 
 Isometric autotile is supported by `slice_multitile.py` using the `--iso` argument.
-A rhomboid template like [multitile_grid_4x4_iso.png](../templates/multitile_grid_4x4_iso.png) is uses as the basis.
+A rhomboid template like [multitile_grid_4x4.png](../../templates/multitile_grid_4x4.png) is uses as the basis.
 
-![ISO Multitile 4x4 Template](../templates/multitile_grid_4x4_iso.png)
+![Multitile 4x4 Template](../../templates/multitile_grid_4x4.png)
 
 #### Re-arranging for ISO with height
 
@@ -170,7 +170,7 @@ of `slice_multitile.py` can be used. The workflow for walls would be:
 
 There is now support for tall multitile templates too:
 
-![Tall Multitile 4x4 Template](image/multitile_grid_4x4_tall.png)
+![Tall Multitile 4x4 Template](../../templates/multitile_grid_4x4_tall.png)
 
 ```sh
 $ tools/slice_multitile.py multitile_grid_4x4_tall.png 32 64 --tile "f_bookcase"
