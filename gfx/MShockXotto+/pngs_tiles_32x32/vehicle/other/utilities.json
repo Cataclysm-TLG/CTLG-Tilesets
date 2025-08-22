@@ -21,20 +21,6 @@
     "multitile": true,
     "additional_tiles": [ { "id": "broken", "fg": [ "3987_vp_cargo_space_2" ], "bg": [ "vp_minifreezer" ] } ]
   },
-    {
-    "id": "vp__chest_minifridge",
-    "fg": [ "vp_chest_minifridge" ],
-    "bg": [  ],
-    "multitile": true,
-    "additional_tiles": [ { "id": "broken", "fg": [ "3987_vp_cargo_space_2" ], "bg": [ "vp_chest_minifridge" ] } ]
-  },
-  {
-    "id": "vp_chest_minifreezer",
-    "fg": [ "vp_chest_minifreezer" ],
-    "bg": [  ],
-    "multitile": true,
-    "additional_tiles": [ { "id": "broken", "fg": [ "3987_vp_cargo_space_2" ], "bg": [ "vp_chest_minifreezer" ] } ]
-  },
   {
     "id": "vp_kitchen_unit",
     "fg": [ "vp_kitchen_unit" ],
