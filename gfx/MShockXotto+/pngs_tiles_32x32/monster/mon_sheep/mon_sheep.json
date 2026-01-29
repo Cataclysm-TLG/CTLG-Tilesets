@@ -1,9 +1,2 @@
 {
-  "id": "mon_sheep",
-  "fg": [
-    "mon_sheep"
-  ],
-  "bg": [
-    "shadow_32x32_normal"
-  ]
-}
+{  "id": "mon_sheep",  "fg": [ "mon_sheep" ], "bg": ["shadow_32x32_normal"], "rotates": false }
