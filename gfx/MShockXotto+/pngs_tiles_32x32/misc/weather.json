@@ -16,5 +16,18 @@
     "fg": [ "weather_mist" ],
     "rotates": false,
     "bg": [  ]
+  },
+  {
+    "id": "weather_rain_drop",
+    "fg": [
+      { "weight": 5, "sprite": "rain_1" },
+      { "weight": 5, "sprite": "rain_2" },
+      { "weight": 5, "sprite": "rain_3" },
+      { "weight": 5, "sprite": "rain_4" },
+      { "weight": 5, "sprite": "rain_5" },
+      { "weight": 5, "sprite": "rain_6" },
+      { "weight": 5, "sprite": "rain_7" }
+    ],
+    "bg": [  ]
   }
 ]
