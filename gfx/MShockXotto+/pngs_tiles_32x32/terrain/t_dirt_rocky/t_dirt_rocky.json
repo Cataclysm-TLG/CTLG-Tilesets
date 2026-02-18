@@ -1,17 +1,59 @@
 [
   {
     "id": "t_dirt_rocky",
-    "fg": [
+    "fg": [ 
         { "weight": 100, "sprite": "t_dirt_rocky1" },
         { "weight": 100, "sprite": "t_dirt_rocky2" },
         { "weight": 100, "sprite": "t_dirt_rocky3" },
         { "weight": 100, "sprite": "t_dirt_rocky4" }
-    ],
+      ],
     "bg": [
         { "weight": 100, "sprite": "t_dirt" },
         { "weight": 100, "sprite": "t_dirt2" },
         { "weight": 100, "sprite": "t_dirt3" },
         { "weight": 100, "sprite": "t_dirt4" }
+    ]
+  },
+  {
+    "id": "t_dirt_rocky_season_autumn",
+    "fg": [ 
+        { "weight": 100, "sprite": "t_dirt_rocky1" },
+        { "weight": 100, "sprite": "t_dirt_rocky2" },
+        { "weight": 100, "sprite": "t_dirt_rocky3" },
+        { "weight": 100, "sprite": "t_dirt_rocky4" }],
+    "bg": [
+        { "weight": 100, "sprite": "t_dirt_autumn" },
+        { "weight": 100, "sprite": "t_dirt_autumn2" },
+        { "weight": 100, "sprite": "t_dirt_autumn3" },
+        { "weight": 100, "sprite": "t_dirt_autumn4" }
+    ]
+  },
+  {
+    "id": "t_dirt_rocky_season_summer",
+    "fg": [
+        { "weight": 100, "sprite": "t_dirt_rocky1" },
+        { "weight": 100, "sprite": "t_dirt_rocky2" },
+        { "weight": 100, "sprite": "t_dirt_rocky3" },
+        { "weight": 100, "sprite": "t_dirt_rocky4" } ],
+    "bg": [
+        { "weight": 100, "sprite": "t_dirt_summer" },
+        { "weight": 100, "sprite": "t_dirt_summer2" },
+        { "weight": 100, "sprite": "t_dirt_summer3" },
+        { "weight": 100, "sprite": "t_dirt_summer4" }
+    ]
+  },
+  {
+    "id": "t_dirt_rocky_season_winter",
+    "fg": [
+        { "weight": 100, "sprite": "t_dirt_rocky1" },
+        { "weight": 100, "sprite": "t_dirt_rocky2" },
+        { "weight": 100, "sprite": "t_dirt_rocky3" },
+        { "weight": 100, "sprite": "t_dirt_rocky4" }],
+    "bg": [
+        { "weight": 100, "sprite": "t_dirt_winter" },
+        { "weight": 100, "sprite": "t_dirt_winter2" },
+        { "weight": 100, "sprite": "t_dirt_winter3" },
+        { "weight": 100, "sprite": "t_dirt_winter4" }
     ]
   }
 ]
