@@ -1,0 +1,6 @@
+[
+{"id": "t_tree_deadpine", "fg": ["5418_t_tree_deadpine_0"], "bg": ["t_dirt_64x80"], "rotates": false},
+{"id": "t_tree_deadpine_season_summer", "fg": ["5418_t_tree_deadpine_0"], "bg": ["t_dirt_summer_64x80"], "rotates": false},
+{"id": "t_tree_deadpine_season_autumn", "fg": ["5418_t_tree_deadpine_0"], "bg": ["t_dirt_autumn_64x80"], "rotates": false},
+{"id": "t_tree_deadpine_season_winter", "fg": ["5418_t_tree_deadpine_0"], "bg": ["t_dirt_winter_64x80"], "rotates": false}
+]

@@ -1,0 +1,6 @@
+[
+{"id": ["t_treetop_fruit" ], "fg": [ "t_treetop_fruit" ], "bg": ["t_dirt_64x80_lower"] },
+{"id": ["t_treetop_fruit_season_summer" ], "fg": [ "t_treetop_fruit" ], "bg": ["t_dirt_summer_64x80_lower"] },
+{"id": ["t_treetop_fruit_season_autumn" ], "fg": [ "t_treetop_fruit" ], "bg": ["t_dirt_autumn_64x80_lower"] },
+{"id": ["t_treetop_fruit_season_winter" ], "fg": [ "t_treetop_dead" ], "bg": ["t_dirt_winter_64x80_lower"] }
+]
