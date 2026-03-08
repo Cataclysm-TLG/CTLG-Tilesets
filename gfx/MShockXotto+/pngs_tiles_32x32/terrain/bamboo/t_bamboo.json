@@ -1,0 +1,62 @@
+[
+  {
+    "id": [ "t_bamboo" ],
+    "fg": [ "t_bamboo" ],
+    "bg": [ "t_dirt" ]
+  },
+  {
+    "id": [ "t_bamboo_harvested" ],
+    "fg": [ "t_bamboo_harvested" ],
+    "bg": [ "t_dirt" ]
+  },
+  {
+    "id": [ "t_bamboo_tall" ],
+    "fg": [ "t_bamboo_tall" ],
+    "bg": [ "t_dirt" ]
+  },
+  {
+    "id": [ "t_bamboo_long" ],
+    "fg": [ "t_bamboo_long" ],
+    "bg": [ "t_dirt" ]
+  },
+  {
+    "id": [ "t_bamboo_dead" ],
+    "fg": [ "t_bamboo_dead" ],
+    "bg": [ "t_dirt" ]
+  },
+  {
+    "id": [ "t_bamboo_long_season_summer" ],
+    "fg": [ "t_bamboo_long" ],
+    "bg": [ "t_dirt_summer" ]
+  },
+  {
+    "id": [ "t_bamboo_tall_season_summer" ],
+    "fg": [ "t_bamboo_tall" ],
+    "bg": [ "t_dirt_summer" ]
+  },
+    {
+    "id": [ "t_bamboo_dead_season_summer" ],
+    "fg": [ "t_bamboo_dead" ],
+    "bg": [ "t_dirt_summer" ]
+  },
+  {
+    "id": [ "t_bamboo_long_season_autumn" ],
+    "fg": [ "t_bamboo_long" ],
+    "bg": [ "t_dirt_summer" ]
+  },
+  {
+    "id": [ "t_bamboo_tall_season_autumn" ],
+    "fg": [ "t_bamboo_tall" ],
+    "bg": [ "t_dirt_summer" ]
+  },
+      {
+    "id": [ "t_bamboo_dead_season_autumn" ],
+    "fg": [ "t_bamboo_dead" ],
+    "bg": [ "t_dirt_autumn" ]
+  },
+  {
+    "id": [ "t_bamboo_dead_season_winter" ],
+    "fg": [ "t_bamboo_dead" ],
+    "bg": [ "t_dirt_winter" ]
+  }
+]
