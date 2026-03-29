@@ -1,0 +1,47 @@
+[
+  {
+    "id": [ "mon_zombie_horse" ],
+    "fg": ["mon_zombie_horse"
+    ],
+  "bg": ["shadow_64x80"],
+  "rotates": false
+  },
+  {
+    "id": [ "mon_zombie_horse_black" ],
+    "fg": [  "mon_zombie_horse_black"
+    ],
+  "bg": ["shadow_64x80"],
+  "rotates": false
+  },
+  {
+    "id": [ "mon_zombie_horse_fungus" ],
+    "fg": [ "mon_zombie_horse_fungus" ],
+  "bg": ["shadow_64x80"],
+  "rotates": false
+  },
+  {
+    "id": [ "mon_zombie_horse_lame" ],
+    "fg": [ "mon_zombie_horse_lame" 
+    ],
+  "bg": ["shadow_64x80"],
+  "rotates": false
+  },
+  {
+    "id": [ "mon_zombie_horse_pale" ],
+    "fg": [ "mon_zombie_horse_pale" ],
+  "bg": ["shadow_64x80"],
+  "rotates": false
+  },
+  {
+    "id": [ "mon_zombie_horse_red" ],
+    "fg": ["mon_zombie_horse_red" ],
+  "bg": ["shadow_64x80"],
+  "rotates": false
+  },
+  {
+    "id": [ "mon_zombie_horse_white" ],
+    "fg": [ "mon_zombie_horse_white" ],
+  "bg": ["shadow_64x80"],
+  "rotates": false
+  }
+]

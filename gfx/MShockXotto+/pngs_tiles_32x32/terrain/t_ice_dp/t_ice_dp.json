@@ -506,7 +506,7 @@
         { "weight": 100, "sprite": "t_dirt_winter" },
         { "weight": 100, "sprite": "t_dirt_winter2" },
         { "weight": 100, "sprite": "t_dirt_winter3" },
-        { "weight": 100, "sprite": "t_dirt_summer4" }
+        { "weight": 100, "sprite": "t_dirt_winter4" }
       ]
     },
     {
