@@ -29,5 +29,17 @@
       { "weight": 5, "sprite": "rain_7" }
     ],
     "bg": [  ]
+  },
+  {
+    "id": "weather_fallout",
+    "fg": [
+      { "weight": 5, "sprite": "fallout_1" },
+      { "weight": 5, "sprite": "fallout_2" },
+      { "weight": 5, "sprite": "fallout_3" },
+      { "weight": 5, "sprite": "fallout_4" },
+      { "weight": 5, "sprite": "fallout_5" },
+      { "weight": 5, "sprite": "fallout_6" }
+    ],
+    "bg": [  ]
   }
 ]
