@@ -1,0 +1,8 @@
+{
+  "id": "mon_zombie_medical",
+  "fg": [
+    "mon_zombie_medical"
+  ],
+  "bg": ["shadow_32x32_normal"],
+  "rotates": false
+}
