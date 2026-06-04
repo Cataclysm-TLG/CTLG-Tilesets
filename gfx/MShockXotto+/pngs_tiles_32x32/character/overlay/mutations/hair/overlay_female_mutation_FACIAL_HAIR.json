@@ -130,5 +130,35 @@
     "fg": [ "overlay_female_mutation_FACIAL_HAIR_GOATEE" ],
     "rotates": false,
     "bg": [  ]
+  },
+  {
+    "id": "overlay_female_mutation_FACIAL_HAIR_BEARD_LONG",
+    "fg": [ "overlay_female_mutation_FACIAL_HAIR_BEARD_LONG" ],
+    "rotates": false,
+    "bg": [  ]
+  },
+  {
+    "id": "overlay_female_mutation_FACIAL_HAIR_BEARD_VERY_LONG",
+    "fg": [ "overlay_female_mutation_FACIAL_HAIR_BEARD_VERY_LONG" ],
+    "rotates": false,
+    "bg": [  ]
+  },
+  {
+    "id": "overlay_female_mutation_FACIAL_HAIR_PENCIL",
+    "fg": [ "overlay_female_mutation_FACIAL_HAIR_PENCIL" ],
+    "rotates": false,
+    "bg": [  ]
+  },
+  {
+    "id": "overlay_female_mutation_FACIAL_HAIR_SIDEBURNS",
+    "fg": [ "overlay_female_mutation_FACIAL_HAIR_SIDEBURNS" ],
+    "rotates": false,
+    "bg": [  ]
+  },
+  {
+    "id": "overlay_female_mutation_FACIAL_HAIR_TOOTHBRUSH",
+    "fg": [ "overlay_female_mutation_FACIAL_HAIR_TOOTHBRUSH" ],
+    "rotates": false,
+    "bg": [  ]
   }
 ]
