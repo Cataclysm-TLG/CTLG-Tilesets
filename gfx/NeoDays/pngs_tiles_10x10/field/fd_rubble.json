@@ -3,5 +3,6 @@
     "fd_rubble",
     "f_rubble_rock"
   ],
+  "rotates": false
   "fg": "fd_rubble"
 }
