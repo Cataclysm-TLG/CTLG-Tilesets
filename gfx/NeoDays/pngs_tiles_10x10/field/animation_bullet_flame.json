@@ -1,4 +1,5 @@
 {
   "id": "animation_bullet_flame",
-  "fg": "fd_incendiary_0"
+  "fg": "fd_incendiary_0",
+  "rotates": false
 }
