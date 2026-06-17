@@ -1,10 +1,7 @@
-[
-  {
-    "id": "mon_feral_pyromaniac",
-    "fg": [
-      { "weight": 19, "sprite": "mon_feral_pyromaniac_0" }, // 95 percent chance for a holding molotov sprite
-      { "weight": 1, "sprite": "mon_feral_pyromaniac_1" } // 5 percent chance for a no molotov surprise/attention check sprite
-    ],
-    "bg": [  ]
-  }
-]
+{
+	"id": "mon_feral_pyromaniac",
+	"fg": [
+		{ "weight": 19, "sprite": "mon_feral_pyromaniac_0" },
+		{ "weight": 1, "sprite": "mon_feral_pyromaniac_1" }
+	]
+}
