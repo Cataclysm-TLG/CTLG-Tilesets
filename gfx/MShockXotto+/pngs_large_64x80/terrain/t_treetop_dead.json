@@ -1,6 +1,6 @@
 [
-{"id": ["t_treetop_dead" ], "fg": [ "t_treetop_dead" ] },
-{"id": ["t_treetop_dead_season_summer" ], "fg": [ "t_treetop_dead" ] },
-{"id": ["t_treetop_dead_season_autumn" ], "fg": [ "t_treetop_dead" ] },
-{"id": ["t_treetop_dead_season_winter" ], "fg": [ "t_treetop_dead" ] }
+{"id": ["t_treetop_dead" ], "fg": [ "t_tree_dead" ] },
+{"id": ["t_treetop_dead_season_summer" ], "fg": [ "t_tree_dead" ] },
+{"id": ["t_treetop_dead_season_autumn" ], "fg": [ "t_tree_dead" ] },
+{"id": ["t_treetop_dead_season_winter" ], "fg": [ "t_tree_dead" ] }
 ]

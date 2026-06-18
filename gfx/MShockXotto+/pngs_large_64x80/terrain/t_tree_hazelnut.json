@@ -1,0 +1,7 @@
+[
+{"id": ["t_tree_hazelnut" ], "fg": ["t_tree_hazelnut"], "bg": ["t_dirt_64x80"]},
+{"id": ["t_tree_hazelnut_season_summer" ], "fg": ["t_tree_hazelnut"], "bg": ["t_dirt_summer_64x80"]},
+{"id": ["t_tree_hazelnut_season_autumn" ], "fg": ["t_tree_hazelnut_season_autumn"], "bg": ["t_dirt_autumn_64x80"]},
+{"id": ["t_tree_hazelnut_harvested_season_autumn" ], "fg": ["t_tree_hazelnut_harvested"], "bg": ["t_dirt_autumn_64x80"]},
+{"id": ["t_tree_hazelnut_season_winter", "t_tree_hazelnut_harvested_season_winter" ], "fg": ["t_tree_dead"], "bg": ["t_dirt_winter_64x80"]}
+]

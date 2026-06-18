@@ -1,0 +1,6 @@
+[
+{"id": ["t_tree_pine" ], "fg": ["t_tree_pine"], "bg": ["t_dirt_64x80"]},
+{"id": ["t_tree_pine_season_summer" ], "fg": ["t_tree_pine"], "bg": ["t_dirt_summer_64x80"]},
+{"id": ["t_tree_pine_season_autumn" ], "fg": ["t_tree_pine"], "bg": ["t_dirt_autumn_64x80"]},
+{"id": ["t_tree_pine_season_winter" ], "fg": ["t_tree_pine_season_winter"], "bg": ["t_dirt_winter_64x80"]}
+]
