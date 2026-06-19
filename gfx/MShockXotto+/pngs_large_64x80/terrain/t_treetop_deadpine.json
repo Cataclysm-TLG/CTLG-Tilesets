@@ -1,6 +1,6 @@
 [
-{"id": ["t_treetop_deadpine" ], "fg": [ "t_tree_deadpine" ] },
-{"id": ["t_treetop_deadpine_season_summer" ], "fg": [ "t_tree_deadpine" ] },
-{"id": ["t_treetop_deadpine_season_autumn" ], "fg": [ "t_tree_deadpine" ] },
-{"id": ["t_treetop_deadpine_season_winter" ], "fg": [ "t_tree_deadpine" ] }
+{"id": ["t_treetop_deadpine" ], "fg": [ "t_tree_deadpine" ], "bg": ["t_open_air_64x80"] },
+{"id": ["t_treetop_deadpine_season_summer" ], "fg": [ "t_tree_deadpine" ], "bg": ["t_open_air_64x80"] },
+{"id": ["t_treetop_deadpine_season_autumn" ], "fg": [ "t_tree_deadpine" ], "bg": ["t_open_air_64x80"] },
+{"id": ["t_treetop_deadpine_season_winter" ], "fg": [ "t_tree_deadpine" ], "bg": ["t_open_air_64x80"] }
 ]

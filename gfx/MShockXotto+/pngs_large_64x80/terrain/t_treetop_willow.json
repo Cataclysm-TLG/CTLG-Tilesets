@@ -1,6 +1,6 @@
 [
-{"id": ["t_treetop_willow" ], "fg": [ "t_tree_willow" ] },
-{"id": ["t_treetop_willow_season_summer" ], "fg": [ "t_tree_willow" ] },
-{"id": ["t_treetop_willow_season_autumn" ], "fg": [ "t_tree_willow" ] },
-{"id": ["t_treetop_willow_season_winter" ], "fg": [ "t_tree_willow_season_winter" ] }
+{"id": ["t_treetop_willow" ], "fg": [ "t_tree_willow" ], "bg": ["t_open_air_64x80"] },
+{"id": ["t_treetop_willow_season_summer" ], "fg": [ "t_tree_willow" ], "bg": ["t_open_air_64x80"] },
+{"id": ["t_treetop_willow_season_autumn" ], "fg": [ "t_tree_willow" ], "bg": ["t_open_air_64x80"] },
+{"id": ["t_treetop_willow_season_winter" ], "fg": [ "t_tree_willow_season_winter" ], "bg": ["t_open_air_64x80"] }
 ]

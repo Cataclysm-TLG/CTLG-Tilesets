@@ -1,6 +1,6 @@
 [
-{"id": ["t_treetop_nut" ], "fg": [ "t_tree_hazelnut" ] },
-{"id": ["t_treetop_nut_season_summer" ], "fg": [ "t_tree_hazelnut" ] },
-{"id": ["t_treetop_nut_season_autumn" ], "fg": [ "t_tree_hazelnut_harvested" ] },
-{"id": ["t_treetop_nut_season_winter" ], "fg": [ "t_tree_dead" ] }
+{"id": ["t_treetop_nut" ], "fg": [ "t_tree_hazelnut" ], "bg": ["t_open_air_64x80"] },
+{"id": ["t_treetop_nut_season_summer" ], "fg": [ "t_tree_hazelnut" ], "bg": ["t_open_air_64x80"] },
+{"id": ["t_treetop_nut_season_autumn" ], "fg": [ "t_tree_hazelnut_harvested" ], "bg": ["t_open_air_64x80"] },
+{"id": ["t_treetop_nut_season_winter" ], "fg": [ "t_tree_dead" ], "bg": ["t_open_air_64x80"] }
 ]
