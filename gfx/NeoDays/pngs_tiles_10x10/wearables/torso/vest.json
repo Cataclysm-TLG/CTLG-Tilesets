@@ -2,10 +2,9 @@
   "id": [
     "vest",
     "waistcoat",
-    "sleeveless_trenchcoat",
     "chainmail_vest",
-    "sleeveless_duster",
-    "cloak"
+    "cloak",
+	"sleeveless_longcoat"
   ],
   "fg": "vest"
 }
