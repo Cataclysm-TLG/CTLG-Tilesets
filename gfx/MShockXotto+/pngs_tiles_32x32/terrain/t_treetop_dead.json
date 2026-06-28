@@ -1,0 +1,6 @@
+[
+{"id": ["t_treetop_dead" ], "fg": [ "" ], "bg": ["t_open_air"] },
+{"id": ["t_treetop_dead_season_summer" ], "fg": [ "" ], "bg": ["t_open_air"] },
+{"id": ["t_treetop_dead_season_autumn" ], "fg": [ "" ], "bg": ["t_open_air"] },
+{"id": ["t_treetop_dead_season_winter" ], "fg": [ "" ], "bg": ["t_open_air"] }
+]
