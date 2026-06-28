@@ -1,6 +1,0 @@
-[
-{"id": ["t_treetop" ], "fg": [ "t_tree" ], "bg": ["t_open_air_64x80"] },
-{"id": ["t_treetop_season_summer" ], "fg": [ "t_tree" ], "bg": ["t_open_air_64x80"] },
-{"id": ["t_treetop_season_autumn" ], "fg": [ "t_tree_season_autumn" ], "bg": ["t_open_air_64x80"] },
-{"id": ["t_treetop_season_winter" ], "fg": [ "t_tree_dead" ], "bg": ["t_open_air_64x80"] }
-]
