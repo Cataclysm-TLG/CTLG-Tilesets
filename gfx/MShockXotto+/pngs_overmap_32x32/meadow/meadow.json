@@ -1,0 +1,18 @@
+[
+  {
+    "id": "meadow_core",
+  "fg": [
+      { "weight": 1, "sprite": "meadow"},
+      { "weight": 1, "sprite": "meadow_1"}
+  ],
+    "rotates": false
+  },
+  {
+    "id": "meadow_end",
+      "fg": [
+      { "weight": 1, "sprite": "meadow"},
+      { "weight": 1, "sprite": "meadow_1"}
+  ],
+"rotates": false
+  }
+]
