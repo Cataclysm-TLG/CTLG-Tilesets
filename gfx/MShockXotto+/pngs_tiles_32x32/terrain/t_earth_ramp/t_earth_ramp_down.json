@@ -1,0 +1,10 @@
+[ 
+{
+  "id": "t_earth_ramp_down_low",
+  "fg": "t_open_air"
+},
+{"id": "t_earth_ramp_down_high", "fg": "t_earth_ramp_down_high", "rotates": true },
+{"id": "t_earth_ramp_down_high_season_summer", "fg": "t_earth_ramp_down_high_season_summer", "rotates": true },
+{"id": "t_earth_ramp_down_high_season_spring_season_autumn", "fg": "t_earth_ramp_down_high_season_autumn", "rotates": true },
+{"id": "t_earth_ramp_down_high_season_spring_season_winter", "fg": "t_earth_ramp_down_high_season_winter", "rotates": true }
+]
