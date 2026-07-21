@@ -1,5 +1,5 @@
 [ 
-{"id": "t_earth_ramp_up_low", "fg": "t_earth_ramp_up_low" },
+{"id": "t_earth_ramp_up_low", "fg": "t_earth_ramp_up_low", "rotates": true },
 {"id": "t_earth_ramp_up_low_season_summer", "fg": [ 
           { "weight": 100, "sprite": "t_dirt_summer" },
           { "weight": 100, "sprite": "t_dirt_summer2" },
@@ -15,5 +15,6 @@
           { "weight": 100, "sprite": "t_dirt_winter" },
           { "weight": 100, "sprite": "t_dirt_winter2" },
           { "weight": 100, "sprite": "t_dirt_winter3" },
-          { "weight": 100, "sprite": "t_dirt_winter4" } ] }
+          { "weight": 100, "sprite": "t_dirt_winter4" } ] },
+{"id": "t_earth_ramp_up_high", "fg": "t_earth_ramp_up_high", "rotates": true }
 ]
