@@ -1,5 +1,5 @@
 {
-  "id": "mon_zombie",
+  "id": "mon_zombie_acidic",
   "fg": [
     { "weight": 1, "sprite": "mon_zombie_acidic" },
     { "weight": 1, "sprite": "mon_zombie_acidic_1" }

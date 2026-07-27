@@ -1,0 +1,9 @@
+{
+  "id": "f_sign_stop",
+  "fg": [
+    { "weight": 98, "sprite": "f_sign_stop_1" }, 
+    { "weight": 1, "sprite": "f_sign_stop_2" },
+    { "weight": 1, "sprite": "f_sign_stop_3" }
+  ],
+  "bg": ""
+}
