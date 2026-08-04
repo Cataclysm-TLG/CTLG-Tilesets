@@ -62,22 +62,6 @@
     "fg": "farm_field"
   },
   {
-    "id": [ "dairy_farm_isherwood_W", "dairy_farm_isherwood_E", "dairy_farm_isherwood_NW", "dairy_farm_isherwood_NE" ],
-    "fg": "farm_field"
-  },
-  {
-    "id": [
-      "farm_isherwood_1",
-      "farm_isherwood_4",
-      "farm_isherwood_5",
-      "farm_isherwood_6",
-      "farm_isherwood_7",
-      "farm_isherwood_8",
-      "farm_isherwood_9"
-    ],
-    "fg": "farm_field"
-  },
-  {
     "id": "farm_lot_wire_straight_h",
     "fg": "farm_field"
   },

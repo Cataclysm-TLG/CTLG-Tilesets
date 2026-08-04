@@ -1,0 +1,10 @@
+[
+  {
+    "id": [ "hayfield", "hayfield_straight", "hayfield_turnL", "hayfield_turnR", "hayfield_end" ],
+  "fg": [
+      { "weight": 1, "sprite": "hayfield_1"},
+      { "weight": 1, "sprite": "hayfield_2"},
+      { "weight": 1, "sprite": "hayfield_3"}
+  ]
+  }
+]

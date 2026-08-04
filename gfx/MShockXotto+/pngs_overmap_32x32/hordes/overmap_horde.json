@@ -7,61 +7,99 @@
   },
   {
     "id": [ "overmap_horde_1" ],
-    "fg": [ "overmap_horde_1", "overmap_horde_2" ],
+    "fg": [ 
+      { "weight": 2, "sprite": "overmap_horde_1" },
+      { "weight": 1, "sprite": "overmap_horde_2" }
+    ],
     "rotates": false,
     "bg": [  ]
   },
   {
     "id": [ "overmap_horde_2" ],
-    "fg": [ "overmap_horde_2", "overmap_horde_1", "overmap_horde_3" ],
+    "fg": [ 
+      { "weight": 1, "sprite": "overmap_horde_1" },
+      { "weight": 2, "sprite": "overmap_horde_2" },
+      { "weight": 1, "sprite": "overmap_horde_3" }
+    ],
     "rotates": false,
     "bg": [  ]
   },
   {
     "id": [ "overmap_horde_3" ],
-    "fg": [ "overmap_horde_3", "overmap_horde_2", "overmap_horde_4" ],
+    "fg": [ 
+      { "weight": 1, "sprite": "overmap_horde_2" },
+      { "weight": 2, "sprite": "overmap_horde_3" },
+      { "weight": 1, "sprite": "overmap_horde_4" }
+    ],
     "rotates": false,
     "bg": [  ]
   },
   {
     "id": [ "overmap_horde_4" ],
-    "fg": [ "overmap_horde_4", "overmap_horde_3", "overmap_horde_5" ],
+    "fg": [ 
+      { "weight": 1, "sprite": "overmap_horde_3" },
+      { "weight": 2, "sprite": "overmap_horde_4" },
+      { "weight": 1, "sprite": "overmap_horde_5" }
+    ],
     "rotates": false,
     "bg": [  ]
   },
   {
     "id": [ "overmap_horde_5" ],
-    "fg": [ "overmap_horde_5", "overmap_horde_4", "overmap_horde_6" ],
+    "fg": [ 
+      { "weight": 1, "sprite": "overmap_horde_4" },
+      { "weight": 2, "sprite": "overmap_horde_5" },
+      { "weight": 1, "sprite": "overmap_horde_6" }
+    ],
     "rotates": false,
     "bg": [  ]
   },
   {
     "id": [ "overmap_horde_6" ],
-    "fg": [ "overmap_horde_6", "overmap_horde_5", "overmap_horde_7" ],
+    "fg": [ 
+      { "weight": 1, "sprite": "overmap_horde_5" },
+      { "weight": 2, "sprite": "overmap_horde_6" },
+      { "weight": 1, "sprite": "overmap_horde_7" }
+    ],
     "rotates": false,
     "bg": [  ]
   },
   {
     "id": [ "overmap_horde_7" ],
-    "fg": [ "overmap_horde_7", "overmap_horde_6", "overmap_horde_8" ],
+    "fg": [ 
+      { "weight": 1, "sprite": "overmap_horde_6" },
+      { "weight": 2, "sprite": "overmap_horde_7" },
+      { "weight": 1, "sprite": "overmap_horde_8" }
+    ],
     "rotates": false,
     "bg": [  ]
   },
   {
     "id": [ "overmap_horde_8" ],
-    "fg": [ "overmap_horde_8", "overmap_horde_7", "overmap_horde_9" ],
+    "fg": [ 
+      { "weight": 1, "sprite": "overmap_horde_7" },
+      { "weight": 2, "sprite": "overmap_horde_8" },
+      { "weight": 1, "sprite": "overmap_horde_9" }
+    ],
     "rotates": false,
     "bg": [  ]
   },
   {
     "id": [ "overmap_horde_9" ],
-    "fg": [ "overmap_horde_9", "overmap_horde_10", "overmap_horde_8" ],
+    "fg": [ 
+      { "weight": 1, "sprite": "overmap_horde_8" },
+      { "weight": 2, "sprite": "overmap_horde_9" },
+      { "weight": 1, "sprite": "overmap_horde_10" }
+    ],
     "rotates": false,
     "bg": [  ]
   },
   {
     "id": [ "overmap_horde_10" ],
-    "fg": [ "overmap_horde_9", "overmap_horde_10" ],
+    "fg": [ 
+      { "weight": 1, "sprite": "overmap_horde_9" },
+      { "weight": 2, "sprite": "overmap_horde_10" }
+    ],
     "rotates": false,
     "bg": [  ]
   }
