@@ -1537,3 +1537,4 @@ tools/venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/file_cac
 
 dda-backport-tracked-pr
 dda-backports
+/tools/.venv
