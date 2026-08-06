@@ -1,7 +1,7 @@
 {
-  "id": "mon_zombie_kevlar_2",
+  "id": "mon_zombie_slag_hulk",
   "fg": [
-    "mon_zombie_kevlar_2"
+    "mon_zombie_slag_hulk"
   ],
   "bg": ["shadow_64x80"],
   "rotates": false

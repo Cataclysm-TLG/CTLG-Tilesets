@@ -1,0 +1,5 @@
+[
+{"id": "overlay_wielded_macuahuitl_glass", "fg": ["overlay_wielded_macuahuitl"], "rotates": false, "bg": []},
+{"id": "overlay_wielded_macuahuitl_steel", "fg": ["overlay_wielded_macuahuitl_steel"], "rotates": false, "bg": []},
+{"id": "overlay_wielded_macuahuitl_teeth", "fg": ["overlay_wielded_macuahuitl_teeth"], "rotates": false, "bg": []}
+]
