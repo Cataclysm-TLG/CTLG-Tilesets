@@ -1,7 +1,7 @@
 {
-  "id": "mon_zombie_kevlar_2",
+  "id": "mon_mosquito_mega",
   "fg": [
-    "mon_zombie_kevlar_2"
+    "mon_mosquito_mega"
   ],
   "bg": ["shadow_64x80"],
   "rotates": false

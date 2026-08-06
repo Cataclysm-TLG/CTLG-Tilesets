@@ -1,7 +1,7 @@
 {
-  "id": "mon_zombie_kevlar_2",
+  "id": "mon_star_vampire",
   "fg": [
-    "mon_zombie_kevlar_2"
+    "mon_star_vampire"
   ],
   "bg": ["shadow_64x80"],
   "rotates": false
