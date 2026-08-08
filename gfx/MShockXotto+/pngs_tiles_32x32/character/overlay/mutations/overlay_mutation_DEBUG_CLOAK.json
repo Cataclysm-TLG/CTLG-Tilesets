@@ -1,0 +1,11 @@
+[
+{"id": "overlay_mutation_DEBUG_CLOAK", "fg": ["overlay_mutation_DEBUG_CLOAK"], "rotates": false, "bg": []},
+{"id": "overlay_mutation_DEBUG_HS", "fg": ["overlay_mutation_DEBUG_CLOAK"], "rotates": false, "bg": []},
+{"id": "overlay_mutation_DEBUG_LS", "fg": ["overlay_mutation_DEBUG_CLOAK"], "rotates": false, "bg": []},
+{"id": "overlay_mutation_DEBUG_MIND_CONTROL", "fg": ["overlay_mutation_DEBUG_CLOAK"], "rotates": false, "bg": []},
+{"id": "overlay_mutation_DEBUG_NIGHTVISION", "fg": ["overlay_mutation_DEBUG_CLOAK"], "rotates": false, "bg": []},
+{"id": "overlay_mutation_DEBUG_NODMG", "fg": ["overlay_mutation_DEBUG_CLOAK"], "rotates": false, "bg": []},
+{"id": "overlay_mutation_DEBUG_NOSCENT", "fg": ["overlay_mutation_DEBUG_CLOAK"], "rotates": false, "bg": []},
+{"id": "overlay_mutation_DEBUG_NOITEM", "fg": ["overlay_mutation_DEBUG_CLOAK"], "rotates": false, "bg": []},
+{"id": "overlay_mutation_DEBUG_SILENT", "fg": ["overlay_mutation_DEBUG_CLOAK"], "rotates": false, "bg": []}
+]
