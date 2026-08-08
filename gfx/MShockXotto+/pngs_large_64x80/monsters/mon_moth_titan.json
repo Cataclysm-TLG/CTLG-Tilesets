@@ -4,7 +4,5 @@
     "mon_moth_titan"
   ],
   "rotates": false,
-  "bg": [
-    
-  ]
+  "bg": [ "shadow_64x80" ]
 }
