@@ -13,7 +13,7 @@ The main thing that we want to keep from the previous tilesets is the anime/cart
 ![monsters](image/monsters.png)
 
 - Black outline RGBA(0,0,0,255)
-- Round shadow directly below the monster RGBA(0,0,0,115)
+- Do not draw a shadow under the monster. Shadows are applied via the "bg" field in the accompanying json file.
 
 ## Items
 
@@ -21,9 +21,8 @@ The main thing that we want to keep from the previous tilesets is the anime/cart
 
 - Black outline RGBA(0,0,0,255)
 - Items should be roughly scaled to the character, meaning that small object like pens and box cutter should be 20x20 and big items like disconnected oven should be 32x32.
-- However, magnified items, like this 32x32 cooked meat sprite, are still okay for the sake of being easy to recognise and looking nice.
-
-## Furnitures
+- We may sometimes need to magnify items to make them legible, but in general scaling them is preferable.
+## Furniture
 
 ![furnitures](image/furnitures.png)
 
@@ -34,4 +33,4 @@ The main thing that we want to keep from the previous tilesets is the anime/cart
 ![terrain](image/terrain.png)
 
 - No outline required
-- Terrain should fill their canvas as the game doesn't display anything behind them. Transparency will appear black in game.
+- Terrain should fill their canvas as the game doesn't display anything behind them. Transparency will appear black in game, and may cause unforeseen visual errors.
