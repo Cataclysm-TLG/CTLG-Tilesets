@@ -24,6 +24,9 @@ result
 # Source multitile files
 source
 
+# Don't include this ever!!
+debug.log
+
 # This particular fallback file should be included
 !gfx/PenAndPaper/fallback.png
 tools/venv/pyvenv.cfg
