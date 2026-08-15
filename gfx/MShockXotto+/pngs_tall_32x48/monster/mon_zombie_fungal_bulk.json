@@ -1,8 +1,9 @@
 {
   "id": "mon_zombie_fungal_bulk",
   "fg": [
-    "mon_zombie_fungal_bulk"
-  ],
+    { "weight": 1, "sprite": "mon_zombie_fungal_bulk_0" },
+    { "weight": 1, "sprite": "mon_zombie_fungal_bulk_1" }
+],
   "rotates": false,
   "bg": [
     "shadow_32x32_normal"
