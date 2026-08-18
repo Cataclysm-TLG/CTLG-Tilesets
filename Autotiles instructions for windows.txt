@@ -1,0 +1,22 @@
+If you're using an ubuntu shell on windows, you can't run the autoslice tool manually. You will need to make a virtual environment. MAKE SURE YOU DO NOT ADD THIS TO THE REPO. Add its directory to .gitignore!
+
+rm -rf .venv
+python3 -m venv .venv
+source .venv/bin/activate
+
+Then verify:
+
+which python3
+
+It should say:
+
+...ctlg-tilesets/tools/.venv/bin/python3
+
+While the venv is active:
+
+pip install pyvips
+pip install numpy
+
+This will install pyvips and numpy in your venv. Once those are in:
+
+python3 slice_multitile.py filename.png 32 --out directoryname
