@@ -1,0 +1,11 @@
+{
+  "id": "mon_zombie_rot_fungal",
+  "fg": [
+    { "weight": 1, "sprite": "mon_zombie_rot_fungal" },
+    { "weight": 1, "sprite": "mon_zombie_rot_fungal_1" }
+],
+  "rotates": false,
+  "bg": [
+    "shadow_32x32_normal"
+  ]
+}
