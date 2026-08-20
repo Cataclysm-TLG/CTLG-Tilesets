@@ -3,7 +3,6 @@
   "id": "t_pit",
   "fg": "t_pit_unconnected",
   "multitile": true,
-  "rotates": false,
   "additional_tiles": [
     {
       "id": "center",
@@ -61,7 +60,6 @@
   "id": "t_pit_season_summer",
   "fg": "t_pit_unconnected",
   "multitile": true,
-  "rotates": false,
   "additional_tiles": [
     {
       "id": "center",
@@ -119,7 +117,6 @@
   "id": "t_pit_season_autumn",
   "fg": "t_pit_unconnected",
   "multitile": true,
-  "rotates": false,
   "additional_tiles": [
     {
       "id": "center",
@@ -177,7 +174,6 @@
   "id": "t_pit_season_winter",
   "fg": "t_pit_unconnected",
   "multitile": true,
-  "rotates": false,
   "additional_tiles": [
     {
       "id": "center",
