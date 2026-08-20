@@ -2,9 +2,8 @@
 {
   "id": "mon_zombie_hulk",
   "fg": [
-    { "weight": 1, "sprite": "mon_zombie_hulk" }
+    { "weight": 1, "sprite": "mon_zombie_hulk" },
+    { "weight": 1, "sprite": "mon_zombie_hulk_1" }
   ],
-  "bg": [ 
-     "shadow_64x80" ],
   "rotates": false
 }
