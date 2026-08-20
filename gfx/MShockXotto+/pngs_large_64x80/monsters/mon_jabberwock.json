@@ -1,0 +1,11 @@
+{
+  "id": "mon_jabberwock",
+  "fg": [
+    { "weight": 1, "sprite": "mon_jabberwock" },
+    { "weight": 1, "sprite": "mon_jabberwock_1" }
+],
+  "rotates": false,
+  "bg": [
+    "shadow_64x80"
+  ]
+}
