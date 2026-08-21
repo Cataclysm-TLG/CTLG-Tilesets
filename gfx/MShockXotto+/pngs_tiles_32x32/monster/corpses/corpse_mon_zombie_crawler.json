@@ -1,0 +1,6 @@
+{
+  "id": [ "corpse_mon_zombie_crawler", "corpse_mon_pseudo_dormant_zombie_crawler" ],
+  "fg": [ "corpse_mon_zombie_crawler" ],
+  "rotates": false,
+  "bg": [  ]
+}
