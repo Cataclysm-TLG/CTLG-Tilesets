@@ -1,0 +1,26 @@
+[
+{
+  "id": "triffid_grove",
+  "fg": [ "triffid_grove" ],
+  "rotates": false,
+  "bg": [ ]
+},
+{
+  "id": "triffid_grove_z2",
+  "fg": [ "triffid_grove_z2" ],
+  "rotates": false,
+  "bg": [ ]
+},
+{
+  "id": "triffid_grove_z3",
+  "fg": [ "triffid_grove_z3" ],
+  "rotates": false,
+  "bg": [ ]
+},
+{
+  "id": "triffid_grove_roof",
+  "fg": [ "triffid_grove_roof" ],
+  "rotates": false,
+  "bg": [ ]
+}
+]
