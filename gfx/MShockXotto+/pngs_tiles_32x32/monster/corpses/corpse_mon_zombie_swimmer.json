@@ -1,6 +1,6 @@
 {
-  "id": [ "corpse_mon_zombie_swimmer", "corpse_mon_pseudo_dormant_zombie_swimmer" ],
-  "fg": [ "corpse_mon_zombie_swimmer" ],
+  "id": [ "corpse_mon_zombie_drowned", "corpse_mon_pseudo_dormant_zombie_drowned" ],
+  "fg": [ "corpse_mon_zombie_drowned" ],
   "rotates": false,
   "bg": [  ]
 }

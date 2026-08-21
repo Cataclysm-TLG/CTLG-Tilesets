@@ -1,0 +1,6 @@
+[
+{"id": "t_tree_verydead", "fg": ["t_tree_deadpine"], "bg": ["t_dirt_64x80"], "rotates": false},
+{"id": "t_tree_verydead_season_summer", "fg": ["t_tree_deadpine"], "bg": ["t_dirt_summer_64x80"], "rotates": false},
+{"id": "t_tree_verydead_season_autumn", "fg": ["t_tree_deadpine"], "bg": ["t_dirt_autumn_64x80"], "rotates": false},
+{"id": "t_tree_verydead_season_winter", "fg": ["t_tree_deadpine"], "bg": ["t_dirt_winter_64x80"], "rotates": false}
+]
