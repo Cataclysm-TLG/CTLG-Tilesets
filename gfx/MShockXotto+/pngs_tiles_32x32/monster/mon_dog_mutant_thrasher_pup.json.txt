@@ -1,0 +1,8 @@
+[
+{
+"id": "mon_dog_mutant_thrasher_pup",
+"fg": [ "mon_dog_mutant_thrasher_pup" ],
+"bg": [ "shadow_32x32_normal" ],
+"rotates": "false"
+}
+]

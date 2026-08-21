@@ -1,0 +1,8 @@
+[
+{
+"id": "mon_dog_mutant_loper",
+"fg": [ "mon_dog_mutant_loper" ],
+"bg": [ "shadow_32x32_normal" ],
+"rotates": "false"
+}
+]
