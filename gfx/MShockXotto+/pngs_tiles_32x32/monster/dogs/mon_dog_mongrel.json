@@ -3,6 +3,6 @@
 "id": "mon_dog_mongrel",
 "fg": [ "mon_dog_mongrel" ],
 "bg": [ "shadow_32x32_normal" ],
-"rotates": "false"
+"rotates": false
 }
 ]

@@ -5,6 +5,6 @@
 { "weight": 5, "sprite": "mon_dog_triclopean" },
 { "weight": 5, "sprite": "mon_dog_triclopean1" }
 ],"bg": [ "shadow_32x32_normal" ],
-"rotates": "false"
+"rotates": false
 }
 ]
