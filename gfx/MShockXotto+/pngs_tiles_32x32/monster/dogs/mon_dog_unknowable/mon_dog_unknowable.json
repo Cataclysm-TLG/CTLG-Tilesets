@@ -1,0 +1,12 @@
+[
+{
+"id": "mon_dog_unknowable",
+"fg": [
+{ "weight": 3, "sprite": "mon_dog_unknowable" },
+{ "weight": 2, "sprite": "mon_dog_unknowable1" },
+{ "weight": 2, "sprite": "mon_dog_unknowable2" },
+{ "weight": 3, "sprite": "mon_dog_unknowable3" }
+],"bg": [ "shadow_32x32_normal" ],
+"rotates": false
+}
+]
