@@ -1,4 +1,5 @@
-"id": [
+{
+    "id": [
 "mon_dog",
 "mon_dog_thing"
 ],
@@ -8,3 +9,4 @@
 ],
 "bg": ["shadow_32x32_normal" ],
 "rotates": false
+}
