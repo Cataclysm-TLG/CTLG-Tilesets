@@ -1,0 +1,6 @@
+{
+  "id": [ "drill_press" ],
+  "rotates": true,
+  "fg": ["drill_press", "drill_press_W", "drill_press_N", "drill_press_E"],
+  "bg": ""
+}
