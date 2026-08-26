@@ -1,7 +1,7 @@
 {
-  "id": "mon_mutant_crow_small",
+  "id": "mon_crow_mutant_small",
   "fg": [
-    "mon_mutant_crow_small"
+    "mon_crow_mutant_small"
   ],
   "rotates": false,
   "bg": [
