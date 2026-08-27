@@ -1,0 +1,10 @@
+{
+  "id": "corpse_mon_jabberwock",
+  "fg": [
+    "corpse_mon_jabberwock"
+  ],
+  "rotates": false,
+  "bg": [
+    "shadow_64x80"
+  ]
+}
