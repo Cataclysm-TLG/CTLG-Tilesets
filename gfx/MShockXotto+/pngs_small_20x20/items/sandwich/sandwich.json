@@ -1,0 +1,7 @@
+[
+  {
+    "id": [ "sandwich_pb", "sandwich_pbh", "sandwich_pbm", "sandwich_cucumber", "sandwich_vegetable", "sandwich_deluxe", "sandwich_cheese_grilled", "sandwich_cheese", "sandwich_reuben", "sandwich_t", "sandwich_egg_salad", "sandwich_jam_cheese", "sandwich_jam_butter", "sandwich_jam", "sandwich_fairy", "sandwich_honey", "sandwich_sauce", "sandwich_vegetable_cheese", "lobster_roll", "fish_bagel", "fish_sandwich", "blt" ],
+    "fg": [ "sandwich" ],
+    "bg": [ ]
+  }
+]
