@@ -1,0 +1,17 @@
+[
+    {
+  "id": [ "22_casing", "22_casing_new", "22_casing_new_short", "9mm_casing" ],
+  "fg": ["casing_small_0", "casing_small_1", "casing_small_2" ],
+  "bg": []
+},
+{
+  "id": [ "223_casing", "762_casing", "50_casing", "50beowulf_casing" ],
+  "fg": ["casing_large_0", "casing_large_1" ],
+  "bg": []
+},
+{
+  "id": [ "shot_hull" ],
+  "fg": ["hull_shotgun_0", "hull_shotgun_1" ],
+  "bg": []
+}
+]
