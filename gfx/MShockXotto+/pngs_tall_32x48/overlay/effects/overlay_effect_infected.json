@@ -1,1 +1,1 @@
-{"id": "overlay_effect_infected", "fg": ["overlay_effect_infected"], "bg": []}
+{"id": ["overlay_effect_infected", "overlay_effect_infected_int2", "overlay_effect_infected_int3" ], "fg": ["overlay_effect_infected"], "bg": []}
