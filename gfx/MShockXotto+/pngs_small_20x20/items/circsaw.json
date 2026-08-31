@@ -1,5 +1,5 @@
 {
-  "id": "circsaw_off","circsaw_on",
+  "id": ["circsaw_off","circsaw_on"],
   "fg": [
     "circsaw"
   ],
