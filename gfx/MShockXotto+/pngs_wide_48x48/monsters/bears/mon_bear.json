@@ -1,0 +1,42 @@
+[
+  {
+  "id": "mon_bear",
+  "fg": [
+    "mon_bear"
+  ],
+  "rotates": false,
+  "bg": [
+    "shadow_48x48"
+  ]
+},
+  {
+  "id": "mon_bear_mutant_3headed",
+  "fg": [
+    "mon_bear_mutant_3headed"
+  ],
+  "rotates": false,
+  "bg": [
+    "shadow_48x48"
+  ]
+},
+{
+  "id": "mon_zombear",
+  "fg": [
+    "mon_zombear"
+  ],
+  "rotates": false,
+  "bg": [
+    "shadow_48x48"
+  ]
+},
+  {
+  "id": "mon_zombear_skeleton",
+  "fg": [
+    "mon_zombear_skeleton"
+  ],
+  "rotates": false,
+  "bg": [
+    "shadow_48x48"
+  ]
+}
+]
