@@ -1,0 +1,10 @@
+{
+  "id": "mon_mink",
+  "fg": [
+    "mon_mink"
+  ],
+  "rotates": false,
+  "bg": [
+   "shadow_20x20_normal" 
+  ]
+}

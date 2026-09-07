@@ -1,0 +1,10 @@
+{
+  "id": "mon_chipmunk",
+  "fg": [
+    "mon_chipmunk"
+  ],
+  "rotates": false,
+  "bg": [
+   "shadow_20x20_normal" 
+  ]
+}
