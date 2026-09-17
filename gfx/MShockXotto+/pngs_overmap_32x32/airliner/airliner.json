@@ -1,0 +1,32 @@
+[
+  {
+  "id": [
+      "airliner_1c",
+      "airliner_2d",
+      "airliner_2e",
+      "airliner_2f",
+      "airliner_2g",
+      "airliner_2h",
+      "airliner_2i",
+      "airliner_2j"
+    ],
+  "fg": "airliner_crash_trail",
+  "bg": [ ]
+  },
+  {
+    "id": [
+      "airliner_2a",
+      "airliner_2a_1",
+      "airliner_2b",
+      "airliner_2b_1",
+      "airliner_2b_-1",
+      "airliner_2c",
+      "airliner_2c_1",
+      "airliner_2c_-1",
+      "airliner_1b",
+      "airliner_3c"
+    ],
+    "fg": "airliner_wreckage",
+    "bg": [ ]
+  }
+]
