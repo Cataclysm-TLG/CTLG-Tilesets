@@ -10,5 +10,31 @@
     "fg": [ "weather_mist" ],
     "rotates": false,
     "bg": [  ]
+  },
+  {
+    "id": "weather_fallout",
+    "fg": [
+      { "weight": 1, "sprite": "weather_fallout_1" },
+      { "weight": 8, "sprite": "weather_fallout_2" },
+      { "weight": 6, "sprite": "weather_fallout_3" },
+      { "weight": 9, "sprite": "weather_fallout_4" },
+      { "weight": 6, "sprite": "weather_fallout_5" },
+      { "weight": 8, "sprite": "weather_fallout_6" },
+      { "weight": 4, "sprite": "weather_fallout_7" },
+      { "weight": 4, "sprite": "weather_fallout_8" },
+      { "weight": 4, "sprite": "weather_fallout_9" },
+      { "weight": 1, "sprite": "weather_fallout_10" },
+      { "weight": 2, "sprite": "weather_fallout_11" },
+      { "weight": 1, "sprite": "weather_fallout_12" },
+      { "weight": 2, "sprite": "weather_fallout_13" },
+      { "weight": 2, "sprite": "weather_fallout_14" },
+      { "weight": 3, "sprite": "weather_fallout_15" },
+      { "weight": 2, "sprite": "weather_fallout_16" },
+      { "weight": 3, "sprite": "weather_fallout_17" },
+      { "weight": 3, "sprite": "weather_fallout_18" },
+      { "weight": 9, "sprite": "weather_fallout_19" }
+    ],
+	"rotates": false,
+    "bg": [  ]
   }
 ]
