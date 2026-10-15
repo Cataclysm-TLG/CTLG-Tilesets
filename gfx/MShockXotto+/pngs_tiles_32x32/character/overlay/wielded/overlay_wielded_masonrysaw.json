@@ -1,0 +1,8 @@
+{
+  "id": "overlay_wielded_masonrysaw_off","overlay_wielded_masonrysaw_on",
+  "fg": [
+    "overlay_wielded_masonrysaw"
+  ],
+  "rotates": false,
+  "bg": []
+}
