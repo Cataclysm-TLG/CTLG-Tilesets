@@ -1,5 +1,5 @@
 {
-  "id": "masonrysaw_off","masonrysaw_on",
+  "id": [ "masonrysaw_off","masonrysaw_on" ],
   "fg": [
     "masonrysaw"
   ],
