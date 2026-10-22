@@ -1,12 +1,42 @@
 [
   {
-    "id": "t_apiary_empty",
+    "id": [ "t_apiary_empty", "t_apiary" ],
     "fg": "t_apiary_empty",
-    "bg": "3058_t_floor_waxed_0"
+    "bg": "t_dirt"
   },
   {
-    "id": "t_apiary",
-    "fg": "t_apiary",
-    "bg": "3058_t_floor_waxed_0"
+    "id": [ "t_apiary_empty_season_summer", "t_apiary_season_summer" ],
+    "fg": "t_apiary_empty",
+    "bg": "t_dirt_summer"
+  },
+  {
+    "id": [ "t_apiary_empty_season_autumn", "t_apiary_season_autumn" ],
+    "fg": "t_apiary_empty",
+    "bg": "t_dirt_autumn"
+  },
+  {
+    "id": [ "t_apiary_empty_season_winter", "t_apiary_season_winter" ],
+    "fg": "t_apiary_empty",
+    "bg": "t_dirt_winter"
+  },
+  {
+    "id": [ "t_apiary_harvestable" ],
+    "fg": "t_apiary_harvestable",
+    "bg": "t_dirt"
+  },
+  {
+    "id": [ "t_apiary_harvestable_season_summer" ],
+    "fg": "t_apiary_harvestable",
+    "bg": "t_dirt_summer"
+  },
+  {
+    "id": [ "t_apiary_harvestable_season_autumn" ],
+    "fg": "t_apiary_harvestable",
+    "bg": "t_dirt_autumn"
+  },
+  {
+    "id": [ "t_apiary_harvestable_season_winter" ],
+    "fg": "t_apiary_harvestable",
+    "bg": "t_dirt_winter"
   }
 ]
