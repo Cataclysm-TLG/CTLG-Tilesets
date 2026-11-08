@@ -1,0 +1,11 @@
+{
+  "id": "t_mega_fern",
+  "fg": [
+    { "weight": 30, "sprite": "t_mega_fern" },
+    { "weight": 30, "sprite": "t_mega_fern_1" }
+],
+  "rotates": false,
+  "bg": [
+    "t_dirt_64x80"
+  ]
+}
