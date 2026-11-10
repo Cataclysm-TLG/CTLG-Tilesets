@@ -1,0 +1,6 @@
+{
+  "id": [ "vp_rolling_trash_can" ],
+  "rotates": true,
+  "fg": ["vp_rolling_trash_can_rotN", "vp_rolling_trash_can_rotW", "vp_rolling_trash_can_rotS", "vp_rolling_trash_can_rotE"],
+  "bg": ""
+}
