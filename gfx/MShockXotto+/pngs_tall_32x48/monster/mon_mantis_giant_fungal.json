@@ -1,7 +1,7 @@
 {
-  "id": "mon_mantis_fungal",
+  "id": "mon_mantis_giant_fungal",
   "fg": [
-    "mon_mantis_fungal"
+    "mon_mantis_giant_fungal"
   ],
   "rotates": false,
   "bg": [
