@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 '''
 Merge all tile entries and PNGs in a compositing tileset directory into
-a tile_config.json and tilesheet .png file(s) ready for use in CDDA.
+a tile_config.json and tilesheet .png file(s) ready for use in CTLG.
 
 Examples:
 
@@ -498,7 +498,7 @@ class Tileset:
         if self.no_use_all:
             for pngname in self.unreferenced_pngnames[sheet_type]:
                 if pngname in self.processed_ids:
-                    log.error(
+                    log.warning(
                         '%(1)s.png not used when %(1)s ID '
                         'is mentioned in a tile entry',
                         {'1': pngname})
@@ -898,7 +898,7 @@ class TileEntry:
                 entry.append(sprite_index)
                 return True
 
-            log.error(
+            log.warning(
                 '%(name)s.png file for %(name)s value from %(path)s '
                 'was not found. It will not be added to %(target)s',
                 {
