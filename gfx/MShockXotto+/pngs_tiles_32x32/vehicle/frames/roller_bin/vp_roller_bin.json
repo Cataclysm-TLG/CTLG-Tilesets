@@ -1,0 +1,6 @@
+{
+  "id": [ "vp_roller_bin" ],
+  "rotates": true,
+  "fg": ["vp_roller_bin_rotN", "vp_roller_bin_rotW", "vp_roller_bin_rotS", "vp_roller_bin_rotE"],
+  "bg": ""
+}
