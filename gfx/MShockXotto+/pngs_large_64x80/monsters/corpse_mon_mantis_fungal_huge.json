@@ -1,0 +1,10 @@
+{
+  "id": "corpse_mon_mantis_fungal_huge",
+  "fg": [
+    "corpse_mon_mantis_fungal_huge"
+  ],
+  "rotates": false,
+  "bg": [
+    "shadow_64x80"
+  ]
+}

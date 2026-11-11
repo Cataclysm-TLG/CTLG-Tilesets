@@ -1,0 +1,8 @@
+{
+  "id": "mon_mantis_fungal_huge",
+  "fg": [
+    "mon_mantis_fungal_huge"
+  ],
+  "rotates": false,
+  "bg": [ "shadow_64x80" ]
+}
