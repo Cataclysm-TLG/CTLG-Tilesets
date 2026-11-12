@@ -45,7 +45,6 @@
     {
       "id": "unconnected",
       "fg": [
-        "explosion_unconnected",
         "explosion_unconnected"
       ]
     }
