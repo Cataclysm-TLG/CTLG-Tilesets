@@ -1,7 +1,7 @@
 {
-  "id": "mon_zombie_dog_hulk",
+  "id": "mon_dog_zombie_hulk",
   "fg": [
-    "mon_zombie_dog_hulk"
+    "mon_dog_zombie_hulk"
   ],
   "bg": ["shadow_64x48" ],
   "rotates": false
