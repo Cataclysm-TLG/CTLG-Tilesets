@@ -1,0 +1,35 @@
+{
+  "id": [
+    "f_vitrified_bed"
+
+  ],
+  "fg": "f_vitrified_bed_0",
+  "rotates": false,
+  "multitile": true,
+  "additional_tiles": [
+    {
+      "id": "center",
+      "fg": "f_vitrified_bed_1"
+    },
+    {
+      "id": "corner",
+      "fg": "f_vitrified_bed_2"
+    },
+    {
+      "id": "edge",
+      "fg": "f_vitrified_bed_3"
+    },
+    {
+      "id": "end_piece",
+      "fg": "f_vitrified_bed_4"
+    },
+    {
+      "id": "t_connection",
+      "fg": "f_vitrified_bed_5"
+    },
+    {
+      "id": "unconnected",
+      "fg": "f_vitrified_bed_0"
+    }
+  ]
+}
