@@ -2,7 +2,8 @@
 	{
 		"id": [
 			"checkers",
-			"small_checkerboard"
+			"small_checkboard",
+			"small_checkers"
 		],
 		"fg": "checkers"
 	}
