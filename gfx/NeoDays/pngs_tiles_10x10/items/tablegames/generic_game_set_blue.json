@@ -1,0 +1,16 @@
+[
+  {
+    "id": [
+      "connect_four",
+      "rummy",
+      "soyang",
+      "friday",
+      "nemo",
+      "pandemic",
+      "spirit_island",
+      "world_nations",
+      "othello"
+    ],
+    "fg": "generic_game_set_blue"
+  }
+]
