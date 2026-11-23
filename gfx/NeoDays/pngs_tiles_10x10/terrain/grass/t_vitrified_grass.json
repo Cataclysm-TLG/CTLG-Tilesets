@@ -1,0 +1,15 @@
+[
+  {
+    "id": "t_vitrified_grass",
+    "fg": [
+      {
+        "weight": 4,
+        "sprite": "t_vitrified_grass"
+      },
+      {
+        "weight": 1,
+        "sprite": "t_vitrified_grass_2"
+      }
+    ]
+  }
+]
